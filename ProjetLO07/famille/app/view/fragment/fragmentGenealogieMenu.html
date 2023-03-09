@@ -1,0 +1,51 @@
+
+<!-- ----- début fragmentGenealogieMenu -->
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="router1.php?action=GenealogieAccueil">DAMBRAINE CHIKHAOUI</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">Famille<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="router1.php?action=familleReadAll">Liste des familles</a></li>
+          <li><a href="router1.php?action=familleReadNom">Sélection d'une famille</a></li>
+          <li><a href="router1.php?action=familleCreate">Insertion d'une famille</a></li>                    
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">Evenement<span class="caret"></span></a>
+        <ul class="dropdown-menu">            
+          <li><a href="router1.php?action=evenementReadNom ">Liste des évènements</a></li>
+          <li><a href="router1.php?action=evenementCreate">Ajout d’un événement</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">Liens<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="router1.php?action=lienReadAll">Liste des liens </a></li>
+          <li><a href="router1.php?action=LienParentalCreate">Ajout d’un lien parental</a></li>
+          <li><a href="router1.php?action=LienUnionCreate">Ajout d’un lien union</a></li>                    
+        </ul>
+      </li>   
+      
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+           aria-haspopup="true" aria-expanded="false">Individu <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="router1.php?action=individuReadAll">Liste des individus</a></li>
+          <li><a href="router1.php?action=individuCreate">Insertion d'un individu</a></li>
+          <li><a href="router1.php?action=individuReadName">Page individu</a></li>
+        </ul>
+      </li>      
+    </ul>
+  </div>
+</nav>
+
+<!-- ----- fin fragmentGenealogieMenu -->
+
